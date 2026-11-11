@@ -1,10 +1,10 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1055,100:f7b733&height=200&section=header&text=Moomooti&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Floating%20through%20code%20on%20a%20slice%20of%20pizza&descAlignY=58&descSize=18" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2b1055,100:f7b733&height=200&section=header&text=Minyoung&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Floating%20through%20code%20on%20a%20slice%20of%20pizza&descAlignY=58&descSize=18" width="100%"/>
 
 <div align="center">
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=F7B733&center=true&vCenter=true&width=600&lines=Be+brave,+be+humble.;Welcome+to+Moomooti's+space;Collecting+pets+one+commit+at+a+time" />
 
-<br/> 
+<br/>
 
 <img src="https://komarev.com/ghpvc/?username=Moomooti&label=Visitors&color=f7b733&style=flat-square" />
 <a href="https://github.com/Moomooti?tab=followers"><img src="https://img.shields.io/github/followers/Moomooti?label=Followers&style=flat-square&color=2b1055" /></a>
@@ -22,9 +22,13 @@
 - 🌱 여러 가지를 공부하면서 하나씩 배워가고 있어요
 - 🤖 요즘 관심사는 머신러닝과 금융 인사이트 공부입니다
 - 🐱 피자와 고양이를 정말 좋아합니다
-  
+
 <a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/lines/Moomooti?pet-id=1" width="1000" height="120"/>
+  <img src="https://render.gitanimals.org/lines/Moomooti" width="1000" height="120"/>
+</a>
+
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/Moomooti"/>
 </a>
 
 ### 🏙️ 3D Contributions
@@ -50,9 +54,6 @@
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Moomooti/Moomooti/output/github-snake-dark.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/Moomooti/Moomooti/output/github-snake.svg" />
 </picture>
-
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f7b733,100:2b1055&height=120&section=footer" width="100%"/>
 
 ### 🚀 Featured Projects
 
@@ -93,9 +94,6 @@
 <tr>
 <td colspan="2" valign="top">
 
-<tr>
-<td colspan="2" valign="top">
-
 #### 🔍 [Deduction Game · AI 바다거북 수프](https://github.com/Moomooti/Deduction-game)
 **LLM이 출제자가 되는 추리 게임** — 이상한 상황 속 숨겨진 진상을 질문만으로 밝혀내요
 
@@ -109,10 +107,4 @@
 </tr>
 </table>
 
-
-
-</td>
-</tr>
-</table>
-
-
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:f7b733,100:2b1055&height=120&section=footer" width="100%"/>

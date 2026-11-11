@@ -4,7 +4,7 @@
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1200&color=F7B733&center=true&vCenter=true&width=600&lines=Be+brave,+be+humble.;Welcome+to+Moomooti's+space;Collecting+pets+one+commit+at+a+time" />
 
-<br/>
+<br/> 
 
 <img src="https://komarev.com/ghpvc/?username=Moomooti&label=Visitors&color=f7b733&style=flat-square" />
 <a href="https://github.com/Moomooti?tab=followers"><img src="https://img.shields.io/github/followers/Moomooti?label=Followers&style=flat-square&color=2b1055" /></a>

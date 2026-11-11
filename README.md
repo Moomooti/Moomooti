@@ -21,10 +21,11 @@
   <img src="https://render.gitanimals.org/lines/Moomooti?pet-id=1" width="1000" height="120"/>
 </a>
 
-### 🍕 About Me
+> *"Be brave, be humble."*
 
-- 🔭 지금 하고 있는 것: <!-- 예: 웹 개발 공부 중 -->
-- 🌱 배우고 있는 것: <!-- 예: React, Spring -->
+- 🌱 여러 가지를 공부하면서 하나씩 배워가고 있어요
+- 🤖 요즘 관심사는 머신러닝과 웹 개발
+- 🐱 고양이를 정말 좋아해요 
 - 🐹 커밋할수록 펫이 늘어나는 중!
 
 ### 🛠 Tech Stack
@@ -49,31 +50,12 @@
 <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge" />
 <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" />
 
-**💻 Languages**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" />
-<img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
-
-**🌐 Web & DB**
-
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" />
-<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" />
-<img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
-
-**🤖 Machine Learning**
-
-<img src="https://img.shields.io/badge/Machine%20Learning-F7B733?style=for-the-badge&logo=python&logoColor=black" />
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" />
-
-<!-- 쓰는 프레임워크가 있으면 아래 줄을 위로 옮기세요
-<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-<img src="https://img.shields.io/badge/pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
-<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<table>
+<tr><td><b>💻 Languages</b></td><td><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black" /> <img src="https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" /> <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" /></td></tr>
+<tr><td><b>🌐 Web & DB</b></td><td><img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css&logoColor=white" /> <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" /> <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" /></td></tr>
+<tr><td><b>🤖 Machine Learning</b></td><td><img src="https://img.shields.io/badge/Machine%20Learning-F7B733?style=for-the-badge&logo=python&logoColor=black" /> <img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white" /></td></tr>
+<tr><td><b>🧰 Tools</b></td><td><img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" /> <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" /> <img src="https://img.shields.io/badge/VS%20Code-007ACC?style=for-the-badge" /> <img src="https://img.shields.io/badge/Notion-000000?style=for-the-badge&logo=notion&logoColor=white" /></td></tr>
+</table>
 -->
 
 ### 🐍 Contribution Snake

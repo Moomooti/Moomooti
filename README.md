@@ -1,16 +1,21 @@
-## Hi there 👋
+<div align="center">
 
-<!--
-**Moomooti/Moomooti** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/lines/Moomooti?pet-id=1" width="1000" height="120"/>
+</a>
 
-Here are some ideas to get you started:
+## 안녕하세요, Moomooti 입니다 👋
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- 여기에 한 줄 소개를 적어주세요. 예: 웹 서비스를 만드는 백엔드 개발자입니다. -->
+
+</div>
+
+---
+
+### 🐾 My GitAnimals Farm
+
+<div align="center">
+<a href="https://github.com/devxb/gitanimals">
+  <img src="https://render.gitanimals.org/farms/Moomooti"/>
+</a>
+</div>

@@ -27,6 +27,10 @@
   <img src="https://render.gitanimals.org/lines/Moomooti?pet-id=1" width="1000" height="120"/>
 </a>
 
+### 🏙️ 3D Contributions
+
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />
+
 ### 🛠 Tech Stack
 
 <img src="https://skillicons.dev/icons?i=python,c,cs,java,html,css,ts,react,mysql,sklearn,git,github,vscode&theme=dark" />
@@ -50,6 +54,4 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f7b733,100:2b1055&height=120&section=footer" width="100%"/>
 
-### 🏙️ 3D Contributions
 
-<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%" />

@@ -23,13 +23,11 @@
 - 🤖 요즘 관심사는 머신러닝과 금융 인사이트 공부입니다
 - 🐱 피자와 고양이를 정말 좋아합니다
 
-<a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/lines/Moomooti" width="1000" height="120"/>
-</a>
-
-<a href="https://github.com/devxb/gitanimals">
-  <img src="https://render.gitanimals.org/farms/Moomooti"/>
-</a>
+<p align="center">
+  <a href="https://github.com/devxb/gitanimals">
+    <img src="https://render.gitanimals.org/farms/Moomooti"/>
+  </a>
+</p>
 
 ### 🏙️ 3D Contributions
 

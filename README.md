@@ -69,7 +69,6 @@
 - ⏱️ 충격이 반영되기까지의 시차, 수출·비수출 법인 차이 분석
 - 🏭 업종별 민감도와 영향 경로 파악
 - 📈 법인 고객 마케팅 월보 대시보드 프로토타입 제작
-- 🙋 내 역할: (맡은 부분을 적어주세요)
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
 

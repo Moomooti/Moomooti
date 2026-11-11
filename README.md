@@ -54,4 +54,53 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:f7b733,100:2b1055&height=120&section=footer" width="100%"/>
 
+### 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+#### 📊 [돈독 · Don-Ddok](https://github.com/Don-Ddok)
+**iM 디지털 뱅커 아카데미 9기** 팀 프로젝트
+
+수출 경기 충격이 **법인의 은행 거래**에 어떻게 나타나는지 분석한 통계 프로젝트
+
+- 🏦 대구·경북 지방은행 데이터 + 관세청 · KOSIS · 한국은행 통계 결합
+- ⏱️ 충격이 반영되기까지의 시차, 수출·비수출 법인 차이 분석
+- 🏭 업종별 민감도와 영향 경로 파악
+- 📈 법인 고객 마케팅 월보 대시보드 프로토타입 제작
+- 🙋 내 역할: (맡은 부분을 적어주세요)
+
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" /> <img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" /> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+#### 🏦 [FinHOLLY · iM Bank AI & Blockchain](https://github.com/Moomooti/iM-Bank-Blockchain-AI)
+**아이엠뱅크 AI & 블록체인 공모전** 출품작
+
+외부 API 없이 은행 내부(온프레미스)에서 돌아가는 **금융 특화 번역 AI**
+한국어 → 베트남어 · 인도네시아어 · 태국어 · 타갈로그어 · 미얀마어
+
+- 🧩 언어별 LoRA 어댑터로 새 언어를 쉽게 추가
+- 🎯 대조학습으로 "청산", "모집" 같은 금융 용어의 뜻을 구분
+- ⚡ int8 양자화로 가볍게 서빙
+- 🧭 앱 + 크롬 확장 프로그램 제공
+
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" /> <img src="https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black" /> <img src="https://img.shields.io/badge/LoRA-6E40C9?style=flat-square" /> <img src="https://img.shields.io/badge/NLLB--200-0467DF?style=flat-square&logo=meta&logoColor=white" />
+
+</td>
+</tr>
+<tr>
+<td colspan="2" valign="top">
+
+#### 🔍 [Deduction Game](https://github.com/Moomooti/Deduction-game)
+웹에서 즐기는 추리 게임 — (게임 소개를 한 줄 적어주세요)
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
+
+</td>
+</tr>
+</table>
+
 

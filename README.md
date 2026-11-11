@@ -94,8 +94,21 @@
 <tr>
 <td colspan="2" valign="top">
 
-#### 🔍 [Deduction Game](https://github.com/Moomooti/Deduction-game)
-웹에서 즐기는 추리 게임 — (게임 소개를 한 줄 적어주세요)
+<tr>
+<td colspan="2" valign="top">
+
+#### 🔍 [Deduction Game · AI 바다거북 수프](https://github.com/Moomooti/Deduction-game)
+**LLM이 출제자가 되는 추리 게임** — 이상한 상황 속 숨겨진 진상을 질문만으로 밝혀내요
+
+- 🐢 '바다거북 수프'처럼 "예 / 아니오"로 답할 수 있는 질문을 던지며 추리
+- 🤖 LLM이 정답 시나리오를 알고 있는 출제자가 되어 질문에 실시간으로 답변
+- 🕵️ 정해진 답 대신 자유로운 질문으로 플레이하는 대화형 추리
+
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" /> <img src="https://img.shields.io/badge/LLM%20API-412991?style=flat-square" />
+
+</td>
+</tr>
+</table>
 
 <img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" /> <img src="https://img.shields.io/badge/CSS-1572B6?style=flat-square&logo=css&logoColor=white" /> <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" />
 

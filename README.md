@@ -16,8 +16,7 @@
 🎓 경북대학교 소프트웨어학과 &nbsp;·&nbsp; 🏦 iM뱅크 데이터 분석 전문가 양성 아카데미 9기 &nbsp;·&nbsp; 📍 대구
 
 <a href="mailto:yues7864@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" /></a>
-<a href="https://app.notion.com/p/Heo-MinYoung-2fe01cbbb09381adb306d1b82580d5f1"><img src="https://img.shields.io/badge/Notion-0d1117?style=flat-square&logo=notion&logoColor=ffffff" /></a>
-<a href="https://www.linkedin.com/in/민영-허-75935a3b7"><img src="https://img.shields.io/badge/LinkedIn-0d1117?style=flat-square&logo=linkedin&logoColor=0A66C2" /></a>
+
 
 </div>
 

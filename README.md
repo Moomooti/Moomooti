@@ -549,6 +549,7 @@ flowchart LR
 
 <table>
 <tr><td><img src="assets/projects/spore_characters.png" alt="SPORE 캐릭터"/><br/><sub>심리테스트 결과로 만나는 8가지 캐릭터 — 프로필 사진으로도 쓰여요</sub></td></tr>
+<tr><td align="center"><img width="80%" src="assets/projects/spore_ui.png" alt="SPORE 화면"/><br/><sub>시간표에 수업 추가 · 심리테스트 시작 화면</sub></td></tr>
 </table>
 
 > const::std 동아리 프로젝트 · 팀 SPORE(8인) · 담당: **백엔드(Firebase) · 친구 기능 · 프로필 · 구글 Play 스토어 배포** · 2025.05~2026.03

@@ -202,6 +202,8 @@ flowchart LR
 
 <br/>
 
+> 🔗 **[미리사주 직접 해 보기 → nohulab.github.io/front_E](https://nohulab.github.io/front_E/)**
+
 <table>
 <tr>
 <td width="50%"><img src="https://raw.githubusercontent.com/Moomooti/retirement-income-cliff-ml/main/docs/images/landing.jpg" alt="시작 화면"/><br/><sub>미리사주 — 시작 화면</sub></td>
@@ -254,6 +256,7 @@ flowchart LR
 
 **Stack** · Python · LightGBM · scikit-learn · SHAP · FastAPI · Docker · Claude API
 
+[![Demo](https://img.shields.io/badge/미리사주-직접%20해%20보기-3182F6?style=flat-square&logo=githubpages&logoColor=white)](https://nohulab.github.io/front_E/)
 [![GitHub](https://img.shields.io/badge/GitHub-retirement--income--cliff--ml-30363d?style=flat-square&logo=github)](https://github.com/Moomooti/retirement-income-cliff-ml)
 
 </details>

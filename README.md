@@ -13,7 +13,7 @@
 **AI 에이전트가 쓰는 인터페이스를 만들고, 그 품질을 테스트와 도구로 지키는 개발자입니다.**<br/>
 직접 겪은 장애를 재발 방지 도구로 만들고, 그 도구로 다시 제 서버의 버그를 찾아 고쳤어요.
 
-🎓 경북대학교 소프트웨어학과 &nbsp;·&nbsp; 🏦 iM뱅크 데이터 분석 전문가 양성 아카데미 9기 &nbsp;·&nbsp; 📍 대구
+🎓 경북대학교 소프트웨어학과 (졸업예정) &nbsp;·&nbsp; 🏦 iM뱅크 데이터 분석 전문가 양성 아카데미 9기 &nbsp;·&nbsp; 📍 대구
 
 <a href="mailto:yues7864@gmail.com"><img src="https://img.shields.io/badge/Email-0d1117?style=flat-square&logo=gmail&logoColor=EA4335" /></a>
 

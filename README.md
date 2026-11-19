@@ -39,6 +39,7 @@
 | 기간 | 프로젝트 | 소속 | 역할 |
 |---|---|---|---|
 | 2026.11 | 🔍 mcp-agent-lint | 개인 | 설계 · 개발 |
+| 2026.11 | 🔦 동네 밝히기 지도 (CPTED) | 개인 | 데이터 파이프라인 · 지도 웹 |
 | 2026.11 | 🧧 대구신용보증재단 사주 | 대구신용보증재단 서포터즈 | 기획 · 개발 |
 | 2026.10~11 | 🍲 바다거북 수프 추리 게임 | 개인 | 기획 · 개발 |
 | 2026.10~11 | 🔮 은퇴 소득 절벽 · 미리사주 | iM뱅크 아카데미 9기 · 팀 투바투 | 데이터 · 모델링 (팀장) |
@@ -98,10 +99,57 @@ flowchart LR
 - **테스트하다 찾은 내 버그** — 문장 끝 쉼표가 붙은 URL(`…jpg,`)을 깨진 링크로 잘못 판정하던 문제, `xxxx…` 같은 반복 문자를 base64로 오인하던 문제를 테스트로 잡아 수정
 - 런타임 의존성은 MCP SDK와 zod 2개뿐, `strict` + `noUncheckedIndexedAccess` + ESLint `strictTypeChecked`
 
-**Stack** · TypeScript · Node.js · MCP SDK · zod · Vitest · ESLint · GitHub Actions
+#### 🤖 AI 코딩 에이전트와 함께 만든 방식
+- Claude와 함께 구현하되, **AI가 쓴 코드는 기준을 통과해야만 합침** — 타입 검사 → 린트 → 테스트 71개 → 빌드(`npm run check`)
+- 규칙과 기준값(설명 40자 · 응답 4,000자), 안전장치 정책, 통과·실패 경계 테스트 케이스는 직접 정하고, 구현은 에이전트와 나눠서 진행
+- 위 두 오판(쉼표 URL · 반복 문자)도 경계 테스트로 재현한 뒤 고침 → AI가 만든 코드를 **테스트로 검증하고 실패 원인을 설명할 수 있게** 하는 게 목표
+
+**Stack** · TypeScript · Node.js · MCP SDK · zod · Vitest · ESLint · GitHub Actions · Claude
 
 [![GitHub](https://img.shields.io/badge/GitHub-mcp--agent--lint-30363d?style=flat-square&logo=github)](https://github.com/Moomooti/mcp-agent-lint)
 [![Rules](https://img.shields.io/badge/Docs-Rules-30363d?style=flat-square&logo=readthedocs&logoColor=white)](https://github.com/Moomooti/mcp-agent-lint/blob/main/docs/rules.md)
+
+</details>
+
+<details>
+<summary><b>🔦 동네 밝히기 지도 (CPTED)</b> — 조명 · CCTV 같은 환경 개선이 먼저 필요한 동네를 보여 주는 지도</summary>
+
+<br/>
+
+<table>
+<tr>
+<td width="50%"><img src="assets/projects/cpted_overview.jpg" alt="행정동 보기"/><br/><sub>행정동 보기 — 같은 구 안에서 개선 우선순위 등급</sub></td>
+<td width="50%"><img src="assets/projects/cpted_dong.jpg" alt="동 상세"/><br/><sub>동 상세 — 등급의 이유와 개선 제안</sub></td>
+</tr>
+<tr>
+<td width="50%"><img src="assets/projects/cpted_grid.jpg" alt="격자 상세"/><br/><sub>250m 격자 상세 (담당자용)</sub></td>
+<td width="50%" align="center"><img src="assets/projects/cpted_mobile.jpg" alt="모바일" width="45%"/><br/><sub>모바일</sub></td>
+</tr>
+</table>
+
+> 범죄를 예측하는 지도가 아니라, 공개 데이터로 "개선을 먼저 검토할 구역"과 개선 제안만 보여 주는 지도 · 공모전에 냈던 분석을 실제 서비스로 다시 설계 · 개인 프로젝트 · 2026.11 · <sub>화면은 합성 데이터</sub>
+
+#### 🧭 흐름
+```mermaid
+flowchart LR
+    A["원천 데이터<br/>CSV · SHP · 좌표계 제각각"] --> B["어댑터<br/>좌표계 · 열 이름 통일"]
+    B --> C["250m 격자<br/>3×3 이웃 집계"]
+    C --> D{"데이터 검사"}
+    D -->|"오류"| X["지도 안 만듦"]
+    D -->|"통과"| E["취약도 · 불확실성 등급"]
+    E --> F["지도 웹<br/>GitHub Pages"]
+```
+
+- **데이터 린트** — 계산 전에 원천 데이터를 검사해, 구 안에서 값이 모두 같은 변수(이전 버전에서 점수를 망친 원인) · 격자 ID 형식 불일치 · 좌표계 오류가 있으면 지도를 만들지 않음
+- **같은 구 안에서 비교** — 구 안 백분위와 가중 기하평균으로 구끼리의 차이가 점수를 지배하지 않게 함
+- **불확실성을 등급으로** — 가중치를 1,000번 다시 뽑아 "상위 10%에 들 확률"로 등급을 매기고, 검증 기준(층화 순열검정 · Cliff's δ · Recall@20%)은 분석 전에 문서로 고정
+- **공개 원칙** — 지도에는 행정동 등급과 개선 제안만, 격자 상세는 담당자용으로 분리
+- 테스트 pytest 46개 · vitest 8개, CI와 Pages 배포 자동화
+
+**Stack** · Python · pandas · GeoPandas · pyproj · TypeScript · MapLibre GL · Vite · pytest · Vitest · GitHub Actions
+
+[![Demo](https://img.shields.io/badge/Demo-동네%20밝히기%20지도-f7b733?style=flat-square&logo=githubpages&logoColor=white)](https://moomooti.github.io/cpted-map/)
+[![GitHub](https://img.shields.io/badge/GitHub-cpted--map-30363d?style=flat-square&logo=github)](https://github.com/Moomooti/cpted-map)
 
 </details>
 
